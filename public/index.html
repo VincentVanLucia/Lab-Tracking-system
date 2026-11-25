@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#1d4ed8" />
+    <meta name="description" content="Smart Laboratory Inventory and Reagent Tracking System" />
+    <title>Lab Inventory</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <script type="module" src="/js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" id="skip-link">Skip to main content</a>
+    <div class="loading-bar" aria-hidden="true"></div>
+
+    <header class="app-header" id="app-header" hidden>
+      <div class="app-header-inner">
+        <a class="brand" href="#/dashboard" aria-label="Lab Inventory home">
+          <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6L4.5 18.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7 15h10"/></svg>
+          <span class="brand-text">Lab Inventory</span>
+        </a>
+        <nav class="top-nav" id="top-nav" aria-label="Main"></nav>
+        <div class="user-box" id="user-box"></div>
+      </div>
+    </header>
+
+    <div class="banner-region" id="banner-region"></div>
+    <main id="main" tabindex="-1"></main>
+
+    <nav class="bottom-nav" id="bottom-nav" aria-label="Main" hidden></nav>
+    <div class="loading-status" id="loading-status" role="status" aria-live="polite"></div>
+    <noscript><p class="noscript">Lab Inventory needs JavaScript enabled in your browser.</p></noscript>
+  </body>
+</html>
